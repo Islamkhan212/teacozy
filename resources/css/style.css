@@ -59,3 +59,31 @@ span {
 h2 {
   font-size: 1.5em;
 }
+#teasection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: 40px auto;
+}
+.teacategories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.teatype {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+}
+.teatype img {
+  height: 200px;
+}
+.teatype h4 {
+  padding-top: 15px;
+}
