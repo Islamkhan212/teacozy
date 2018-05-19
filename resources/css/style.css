@@ -1,9 +1,10 @@
-body {
+body, header{
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
+  opacity: .9;
+  text-align: center;
 }
 
 header {
@@ -11,23 +12,50 @@ header {
   align-items: center;
   flex-wrap: wrap;
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   height: 69px;
   border-bottom: 1px solid seashell;
   opacity: 1;
 }
+a {
+  text-decoration: underline;
+}
+
+h2, h4 {
+  font-weight: bold;
+  padding: 10px;
+}
 .logo {
   display: flex;
   flex-grow: 1;
   padding-left: 10px;
-  /* height: 50px; */
 }
+
 header img {
  height: 50px;
 }
+
 span {
   display: inline-block;
   padding: 20px 10px;
-  text-decoration: underline;
+
+}
+#mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 70px;
+  background-image: url(/Users/mayank/Desktop/teacozy/resources/images/missionbg.jpg);
+}
+.missioncontent {
+  background-color: black;
+  text-align: center;
+}
+h2 {
+  font-size: 1.5em;
 }
