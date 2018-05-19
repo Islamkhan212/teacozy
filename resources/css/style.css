@@ -23,7 +23,7 @@ a {
   text-decoration: underline;
 }
 
-h2, h4, h3 {
+h2, h4, h3, h5{
   font-weight: bold;
   padding: 10px;
 
@@ -130,4 +130,9 @@ p {
 h5 {
   font-size: 0.82em;
   padding-top: 40px;
+}
+footer h5 {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 30px;
 }
